@@ -34,8 +34,8 @@ def enumerate_backwards(lst):
 
     for item in lst:
         if item != "":
-            resversed_word = item[::-1]
-            result.append(f"{index}. {resversed_word}")
-        index += 1
+            reversed_word = item[::-1]
+            result.append(f"{index}. {reversed_word}")
+            index += 1
 
     return result
